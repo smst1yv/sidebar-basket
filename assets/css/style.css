@@ -1,0 +1,147 @@
+#products{
+  display: flex;
+  padding-left: 440px;
+}
+
+#products .product-container{
+  margin-left: 15px;
+  border: 2px solid red;
+  position: relative;
+  height: 550px;
+}
+
+#products .product-container .product-h{
+  position: absolute;
+  bottom: 100px;
+  left: 100px;
+}
+
+#products .product-container .menfi{
+  background: rebeccapurple;
+    border: none;
+    font-size: 20px;
+    padding-right: 8px;
+    padding-left: 8px;
+    padding-top: 3px;
+    padding-bottom: 3px;
+    border-radius: 15px;
+    cursor: pointer;
+}
+
+#products .product-container .musbet{
+  background: rebeccapurple;
+    border: none;
+    font-size: 20px;
+    padding-right: 8px;
+    padding-left: 8px;
+    padding-top: 3px;
+    padding-bottom: 3px;
+    border-radius: 15px;
+    cursor: pointer;
+}
+
+#products .product-container .sebet{
+  background: rebeccapurple;
+    color: white;
+    border: none;
+    padding: 5px;
+    border-radius: 13px;
+    cursor: pointer;
+}
+
+.sebetdeki{
+  border: 1px solid red;
+  width:273px;
+  background: aliceblue;
+}
+
+.sebetdeki-p{
+  font-size: 18px;
+  font-weight: bold;
+}
+
+.sebetdeki-tp-p{
+  font-weight: bold;
+  font-size: 20px;
+}
+
+.sebetdeki-sil{
+  background: rebeccapurple;
+  color: white;
+    border: none;
+    padding: 5px;
+    font-size: 16px;
+    border-radius: 13px;
+    cursor: pointer;
+}
+
+.sidenav {
+  height: 81%;
+  width: 0;
+  position: fixed; 
+  z-index: 1;
+  top: 0; 
+  left: 0;
+  background-color: #111; 
+  overflow-x: hidden; 
+  padding-top: 60px; 
+  transition: 0.5s; 
+}
+
+
+.sidenav a {
+  padding: 8px 8px 8px 32px;
+  text-decoration: none;
+  font-size: 25px;
+  color: #818181;
+  display: block;
+  transition: 0.3s;
+}
+
+
+.sidenav a:hover {
+  color: #f1f1f1;
+}
+
+
+.sidenav .closebtn {
+  position: absolute;
+  top: 0;
+  right: 25px;
+  font-size: 36px;
+  margin-left: 50px;
+}
+
+
+#main {
+  transition: margin-left .5s;
+  padding: 20px;
+}
+
+
+@media screen and (max-height: 450px) {
+  .sidenav {padding-top: 15px;}
+  .sidenav a {font-size: 18px;}
+}
+
+.basket-button{
+  position: absolute;
+    top: 15px;
+    left: 20px;
+    background: rebeccapurple;
+    color: #fff;
+    padding: 10px;
+    border-radius: 25px;
+    cursor: pointer;
+}
+
+#btn-two{
+  display: none;
+  position: absolute;
+  z-index: 999;
+  font-size: 35px;
+  text-decoration: none;
+  color: whitesmoke;
+  top: 9.5px;
+  left: 387px;
+}
