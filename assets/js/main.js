@@ -20,7 +20,7 @@ function renderProducts() {
         <button class = "menfi" onclick="decreaseQuantity(${i})">-</button>
         <span class = "sifir">${product.quantity}</span>
         <button class = "musbet" onclick="increaseQuantity(${i})">+</button>
-        <button class = "sebet" onclick="addToCart(${i})">Sepete Ekle</button>
+        <button  id = "sebetek" class = "sebet" onclick="addToCart(${i}), openNav()">Sepete Ekle</button>
       </div>
     `;
   }
@@ -56,6 +56,8 @@ function addToCart(index) {
     renderProducts();
   }
 }
+
+
 
 function removeFromCart(index) {
   document.getElementById('mySidenav').children[index].remove();
@@ -101,3 +103,6 @@ function openNav() {
     document.body.style.backgroundColor = "white";
     document.getElementById('btn-two').style.display = 'none';
   }
+
+
+  const sebetek = document.getElementById('sebetek');
